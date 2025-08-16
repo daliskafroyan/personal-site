@@ -90,13 +90,10 @@ function HomeComponent() {
             </GridContainer>
             {/* <div className="w-full h-4 hidden border border-y-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed [--pattern-fg:var(--color-black)]/5 md:block dark:[--pattern-fg:var(--color-white)]/10"></div> */}
             <div className="w-full h-4 hidden bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed [--pattern-fg:var(--color-black)]/5 md:block dark:[--pattern-fg:var(--color-white)]/10"></div>
-            <GridContainer className="px-4">
-              <h2 className="text-3xl font-semibold">Experience</h2>
-            </GridContainer>
+              <GridContainer className="px-4">
+                <h2 className="text-3xl font-semibold">Experience</h2>
+              </GridContainer>
             <WorkExperience experiences={WORK_EXPERIENCE} />
-
-
-
           </section>
         </div>
 
